@@ -1,0 +1,11 @@
+check=int(input())
+titu=0
+foot=check
+while(foot>0):
+   feet=foot%10
+   titu=titu+(feet**3)
+   foot=foot//10
+if(check==titu):
+   print("yes")
+else:
+   print("no")
